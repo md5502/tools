@@ -30,14 +30,9 @@ Please make sure to review and respect the licenses and terms of use associated 
 # Video Downloader
 
 This Python script allows you to download videos from Aparat playlists. It utilizes Selenium and requests to automate the process of navigating through a playlist and downloading videos in 720p quality.
-
 ### Usage
 
-1. Clone this repository to your local machine:
-
-   ```bash
-   git clone https://github.com/yourusername/your-repo.git
-   ```
+1. download aparat_dl.py  file to your local machine:
 
 2. Install the required Python packages using pip:
 
