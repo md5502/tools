@@ -69,14 +69,15 @@ def main():
             download_button.click()
             
             try:
-                dl_720 = driver.find_element(By.ID, "720p").get_attribute("href")
-                videos.append((index, f"{index}-{name}", dl_720))
+                dl = driver.find_element(By.ID, "720p").get_attribute("href")
+                videos.append((index, f"{index}-{name}", dl))
                 print("=" * 50, "\n", index, ' DONE')
             except NoSuchElementException:
                 print(f"720p video not found for {name}")
-
+        save_path = input("enter save path: ")
         for video_index, video_name, video_url in videos:
-            download_video(video_url, r"C:\Users\mohammad\Desktop\aparat_dl", video_name, playlist_name)
+            
+            download_video(video_url, save_path, video_name, playlist_name)
 
     except Exception as e:
         print(f"An error occurred: {str(e)}")
