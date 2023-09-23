@@ -27,7 +27,8 @@ To access and use a specific code or project, follow these steps:
 Please make sure to review and respect the licenses and terms of use associated with each code snippet or project. Use these resources responsibly and only for legal and ethical purposes.
 
 ---
-# Video Downloader
+# Aparat_dl
+##### (Video Downloader)
 
 This Python script allows you to download videos from Aparat playlists. It utilizes Selenium and requests to automate the process of navigating through a playlist and downloading videos in 720p quality.
 ### Usage
