@@ -9,7 +9,7 @@ Certainly! Here's a README.md file for your GitHub repository to explain the cod
 
 This Python script allows you to download videos from Aparat playlists. It utilizes Selenium and requests to automate the process of navigating through a playlist and downloading videos in 720p quality.
 
-## Usage
+### Usage
 
 1. Clone this repository to your local machine:
 
@@ -39,7 +39,7 @@ This Python script allows you to download videos from Aparat playlists. It utili
 
 6. The script will download the videos in 720p quality and save them in the specified directory.
 
-## Requirements
+### Requirements
 
 - Python 3.x
 - [Selenium](https://pypi.org/project/selenium/): Python library for web automation
@@ -47,7 +47,7 @@ This Python script allows you to download videos from Aparat playlists. It utili
 - [tqdm](https://pypi.org/project/tqdm/): Python library for displaying progress bars
 - [webdriver_manager](https://pypi.org/project/webdriver-manager/): Python library for managing web drivers like ChromeDriver
 
-## Configuration
+### Configuration
 
 You can modify the script to change the quality of downloaded videos or adjust the waiting time between video downloads by modifying the `time.sleep()` value in the `main()` function.
 
@@ -55,3 +55,4 @@ You can modify the script to change the quality of downloaded videos or adjust t
 # Adjust the sleep time between video downloads (in seconds)
 time.sleep(10)
 ```
+=======================================================================================================
