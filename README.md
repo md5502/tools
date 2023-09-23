@@ -7,7 +7,7 @@ Certainly! Here's a README.md file for your GitHub repository to explain the cod
 
 # Video Downloader
 
-This Python script allows you to download videos from YouTube playlists. It utilizes Selenium and requests to automate the process of navigating through a playlist and downloading videos in 720p quality.
+This Python script allows you to download videos from Aparat playlists. It utilizes Selenium and requests to automate the process of navigating through a playlist and downloading videos in 720p quality.
 
 ## Usage
 
@@ -35,7 +35,7 @@ This Python script allows you to download videos from YouTube playlists. It util
    python video_downloader.py
    ```
 
-5. You will be prompted to enter the URL of the YouTube playlist you want to download.
+5. You will be prompted to enter the URL of the Aparat playlist you want to download.
 
 6. The script will download the videos in 720p quality and save them in the specified directory.
 
